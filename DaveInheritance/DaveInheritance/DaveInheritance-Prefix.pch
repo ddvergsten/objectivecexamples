@@ -1,0 +1,5 @@
+//
+// Prefix header for all source files of the 'DaveInheritance' target in the 'DaveInheritance' project
+//
+
+#include <CoreFoundation/CoreFoundation.h>

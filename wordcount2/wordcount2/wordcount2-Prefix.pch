@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'wordcount2' target in the 'wordcount2' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
