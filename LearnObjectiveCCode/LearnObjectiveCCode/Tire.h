@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Ian And David Dvergsten. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
 @interface Tire : NSObject
 {

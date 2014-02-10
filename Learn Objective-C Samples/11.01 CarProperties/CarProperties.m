@@ -10,7 +10,9 @@ int main (int argc, const char * argv[])
 	
 	Car *car = [[Car alloc] init];
 	car.name = @"Herbie";
-	
+    NSMutableString *str = car.name    ;
+    str = [[NSMutableString alloc]init];
+	NSMutableString *str2 = car.name;
 	int i;
 	for (i = 0; i < 4; i++) {
 		AllWeatherRadial *tire;

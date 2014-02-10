@@ -16,6 +16,10 @@
 		4AD98A69181A00220004525C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AD98A67181A00220004525C /* InfoPlist.strings */; };
 		4AD98A6B181A00220004525C /* LearnObjectiveCCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD98A6A181A00220004525C /* LearnObjectiveCCodeTests.m */; };
 		4AD98A79181A027C0004525C /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD98A78181A027C0004525C /* Tire.m */; };
+		4AD98A7C181A0B7B0004525C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD98A7B181A0B7B0004525C /* Car.m */; };
+		4AD98A82181A0CE60004525C /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD98A81181A0CE60004525C /* Engine.m */; };
+		4AD98A87181A10880004525C /* AllWeatherRadial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD98A84181A10880004525C /* AllWeatherRadial.m */; };
+		4AD98A88181A10880004525C /* Slant6.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD98A86181A10880004525C /* Slant6.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,14 @@
 		4AD98A6A181A00220004525C /* LearnObjectiveCCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnObjectiveCCodeTests.m; sourceTree = "<group>"; };
 		4AD98A77181A027C0004525C /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
 		4AD98A78181A027C0004525C /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		4AD98A7A181A0B7B0004525C /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		4AD98A7B181A0B7B0004525C /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		4AD98A80181A0CE60004525C /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Engine.h; path = "../../Learn Objective-C Samples/10.01 CarPartsInit-GC/Engine.h"; sourceTree = "<group>"; };
+		4AD98A81181A0CE60004525C /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Engine.m; path = "../../Learn Objective-C Samples/10.01 CarPartsInit-GC/Engine.m"; sourceTree = "<group>"; };
+		4AD98A83181A10880004525C /* AllWeatherRadial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllWeatherRadial.h; path = "../../Learn Objective-C Samples/10.01 CarPartsInit-GC/AllWeatherRadial.h"; sourceTree = "<group>"; };
+		4AD98A84181A10880004525C /* AllWeatherRadial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllWeatherRadial.m; path = "../../Learn Objective-C Samples/10.01 CarPartsInit-GC/AllWeatherRadial.m"; sourceTree = "<group>"; };
+		4AD98A85181A10880004525C /* Slant6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Slant6.h; path = "../../Learn Objective-C Samples/10.01 CarPartsInit-GC/Slant6.h"; sourceTree = "<group>"; };
+		4AD98A86181A10880004525C /* Slant6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Slant6.m; path = "../../Learn Objective-C Samples/10.01 CarPartsInit-GC/Slant6.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +131,12 @@
 		4AD98A47181A00220004525C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AD98A80181A0CE60004525C /* Engine.h */,
+				4AD98A83181A10880004525C /* AllWeatherRadial.h */,
+				4AD98A84181A10880004525C /* AllWeatherRadial.m */,
+				4AD98A85181A10880004525C /* Slant6.h */,
+				4AD98A86181A10880004525C /* Slant6.m */,
+				4AD98A81181A0CE60004525C /* Engine.m */,
 				4AD98A48181A00220004525C /* LearnObjectiveCCode-Info.plist */,
 				4AD98A49181A00220004525C /* InfoPlist.strings */,
 				4AD98A4C181A00220004525C /* main.m */,
@@ -126,6 +144,8 @@
 				4AD98A4F181A00220004525C /* Credits.rtf */,
 				4AD98A77181A027C0004525C /* Tire.h */,
 				4AD98A78181A027C0004525C /* Tire.m */,
+				4AD98A7A181A0B7B0004525C /* Car.h */,
+				4AD98A7B181A0B7B0004525C /* Car.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,8 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD98A87181A10880004525C /* AllWeatherRadial.m in Sources */,
+				4AD98A88181A10880004525C /* Slant6.m in Sources */,
+				4AD98A7C181A0B7B0004525C /* Car.m in Sources */,
 				4AD98A4D181A00220004525C /* main.m in Sources */,
 				4AD98A79181A027C0004525C /* Tire.m in Sources */,
+				4AD98A82181A0CE60004525C /* Engine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnObjectiveCCode/LearnObjectiveCCode-Prefix.pch";
@@ -380,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnObjectiveCCode/LearnObjectiveCCode-Prefix.pch";

@@ -9,7 +9,7 @@
     Engine *engine;
 }
 
-@property (readwrite, copy) NSString *name;
+@property ( readwrite) NSString *name;
 @property (readwrite, retain) Engine *engine;
 
 - (void) setTire: (Tire *) tire
