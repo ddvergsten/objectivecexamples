@@ -38,6 +38,7 @@ int flip = 0;
 ////////////////////////////////////
 -(void) moveBoxWithX:(float)xAmount andY:(float)yAmount
 {
+    //this is a test
     CGPoint shipCenter = ship.position;
     shipCenter.x += xAmount;
     shipCenter.y += yAmount;
